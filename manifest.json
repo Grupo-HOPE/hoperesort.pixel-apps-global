@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
-  "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "name": "pixel-apps-global",
+  "vendor": "lojahr",
+  "version": "0.0.0",
+  "title": "Pixel Apps Global",
+  "description": "Aplicativo para intrudução de pixel de terceiros.",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -23,17 +23,6 @@
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
-  },
-  "settingsSchema": {
-    "title": "YOUR APP NAME",
-    "type": "object",
-    "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
-        "type": "string"
-      }
-    }
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
